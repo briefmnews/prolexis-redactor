@@ -1,6 +1,6 @@
 .redactor-toolbar li a.re-prolexis {
-    background-image: url(vendor/prolexis/images/DiagPlWs.png);
+    background-image: url(img/prolexis.png);
 }
 .redactor-toolbar li a.re-prolexis:hover {
-    background-image: url(vendor/prolexis/images/DiagPlWs-hover.png);
+    background-image: url(img/prolexis-hover.png);
 }
