@@ -9,12 +9,17 @@
         <!-- Redactor is here -->
 	    <link rel="stylesheet" href="../vendor/redactor/redactor.css" />
 	    <script src="../vendor/redactor/redactor.min.js"></script>
+	    <script src="../prolexis.js"></script>
+	    <link rel="stylesheet" href="../prolexis.css" />
 
         <script type="text/javascript">
         $(function()
         {
             $('#content').redactor({
-	            focus: true
+                buttons: ['link', 'html', 'bold'],
+                buttonSource: true,
+                focus: true,
+                plugins: ['prolexis']
             });
         });
         </script>
